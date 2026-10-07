@@ -1,0 +1,8 @@
+
+function PrivacySettings() {
+  return (
+    <div>PrivacySettings</div>
+  )
+}
+
+export default PrivacySettings
