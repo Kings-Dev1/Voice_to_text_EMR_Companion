@@ -1,5 +1,5 @@
-const { contextBridge } = require("electron");
+import { contextBridge } from "electron";
 
 contextBridge.exposeInMainWorld("electronAPI", {
-  getAppInfo: () => "Voice-to-Text EMR Desktop App",
+  getAppInfo: (): string => "Voice-to-Text EMR Desktop App",
 });
